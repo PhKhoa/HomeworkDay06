@@ -1,0 +1,30 @@
+#chatParent{
+    display: grid;
+    grid-template-columns: minmax(150px, 25%) 1fr;
+    width: 100vw;
+    height: 100vh;
+    background-color: #DDDDDD;
+}
+
+#friendList{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    border-right: 1px solid grey;
+}
+
+#chatBox{
+    display: grid;
+    grid-template-rows:  1fr auto;
+    //margin: 5px;
+}
+
+#userInfoPanel{
+    display: flex;
+    padding: 10px;
+    align-content: center;
+}
+
+#chatInput{
+    border-top: 1px solid grey;
+    padding: 10px;
+}

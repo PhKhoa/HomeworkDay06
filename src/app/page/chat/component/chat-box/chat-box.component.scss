@@ -1,0 +1,41 @@
+// #chat-box{
+//     width: 80%;
+// }
+
+.chatting{
+    padding: 10px;
+}
+
+.friend-name{
+    height: 35px;
+    border-bottom: 1px solid grey;
+    //margin: 10px 0 10px 10px;
+    display: flex;
+    align-items: center;
+    span{
+        margin-left: 10px ;
+    }
+}
+
+.chat-cart{
+    background-color: #EEEEEE;
+    width: auto;
+    display: inline-block;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    max-width: 500px;
+    margin: 2px 0px;
+    //border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.left-chat{
+    text-align: left;
+    width: 100%;
+}
+
+.right-chat{
+    text-align: right;
+    width: 100%;
+}

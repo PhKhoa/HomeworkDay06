@@ -1,0 +1,20 @@
+.control{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.send-control {
+    display: flex;
+    align-items: center;
+}
+
+.input-control{
+    width: 97%;
+}
+
+input {
+    border: none;
+    width: 100%;
+    background: none;
+}

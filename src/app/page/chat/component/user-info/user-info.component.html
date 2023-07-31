@@ -1,0 +1,35 @@
+<div id="infoParent">
+    <div id="avatarPanel" class="box">
+        <img id="avatar" [src]="user?.avatarUrl??''" alt="">
+    </div>  
+    <div id="infoPanel" class="box">
+        <!-- <div id="id">{{user?.id??''}}</div> -->
+        <div id="name">{{user?.name??''}}</div>
+        <div id="email">{{user?.email??''}}</div>
+    </div>
+
+    <!-- <div id="actionPanel" class="box">
+        <img src="../../../../../assets/images/logout.png" style="width: 20px;height: 20px;" alt="" (click)="userService.logout()">
+    </div> -->
+
+    <div id="add">
+        <div class="input-add">
+            <form class="form" [formGroup]="productForm">
+                <div class="form-group">
+                    <!-- <label for="email">Email: </label> -->
+                    <input
+                        type="text"
+                        class="form-control"
+                        id="email"
+                        formControlName="email"
+                        placeholder="Enter email"
+                    />
+                </div>
+            </form>
+        </div>
+        <div class="img-add">
+            <img src="../../../../../assets/images/add.png" style="width: 20px;height: 20px;" alt="" (click)="addFriend(productForm.value.email)">
+            <img src="../../../../../assets/images/logout.png" style="width: 20px;height: 20px; margin-left: 5px;" alt="" (click)="userService.logout()">
+        </div>
+    </div>
+</div>

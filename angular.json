@@ -97,8 +97,18 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "version": 2,
+            "browserTarget": "AppChat:build:production"
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "5ee27fdd-b959-46db-bd3d-220d27f585da"
   }
 }

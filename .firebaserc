@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "chatapp-5b86e": {
+      "hosting": {
+        "AppChat": [
+          "chatapp-5b86e"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "chatapp-5b86e"
+  }
+}

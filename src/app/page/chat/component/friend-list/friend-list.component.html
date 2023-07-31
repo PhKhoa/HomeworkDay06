@@ -1,0 +1,12 @@
+<div id="friend-list" style="width: 100%;">
+    <div *ngFor="let friendship of friendList">
+        <!-- <p>
+            <button (click)="chatWith(friendship)">
+                {{friendship.friendEmail}}
+            </button>
+        </p> -->
+        <div class="friend-cart" (click)="chatWith(friendship)">
+            {{friendship.friendEmail}}
+        </div>
+    </div>
+</div>
